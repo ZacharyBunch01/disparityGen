@@ -4,6 +4,22 @@
 
 This program generates a 3D point cloud from two input images by first creating a disparity map using OpenCV and then converting it into a 3D point cloud. It utilizes OpenCV for generating the disparity map due to its speed and accuracy, and pyvista for plotting the vertices, offering better performance and higher-quality visualization.
 
+## Input images
+
+Left Image: 
+![im1](https://github.com/ZacharyBunch01/disparityGen/assets/126414937/8bbe72d2-7ca9-43c1-bd07-70e5024d972f)
+
+Right Image:
+![im0](https://github.com/ZacharyBunch01/disparityGen/assets/126414937/473fe8a8-c79d-4066-a7cb-391bf8fae14b)
+
+# Disparity Map
+
+<img width="606" alt="Screenshot 2024-03-30 at 3 48 19 PM" src="https://github.com/ZacharyBunch01/disparityGen/assets/126414937/ef25d905-ebb9-4745-8698-eb679b2768db">
+
+## Final Result
+
+![3d Point Cloud Result](https://github.com/ZacharyBunch01/disparityGen/assets/126414937/ae4d38f4-8355-43a2-970f-12f6f367a302)
+
 ## Running the Program
 
 To run the program, follow these steps:
