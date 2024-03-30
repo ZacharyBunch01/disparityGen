@@ -18,7 +18,9 @@ To run the program, follow these steps:
    ```bash
    python main.py
 
-Note: If you are using MacOS, use `python3` instead of `python`.
+Note: If you are using MacOS, use `python3` instead of `python`:
+   ```bash
+   python3 main.py
 
 4. The program will automatically install any necessary dependencies if not already installed.
 
