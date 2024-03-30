@@ -9,11 +9,13 @@ This program generates a 3D point cloud from two input images by first creating 
 To run the program, follow these steps:
 
 1. Clone the repository to your local machine:
+   ''' bash
    git clone https://github.com/ZacharyBunch01/disparityGen.git
 
 3. Navigate to the project directory.
 
 4. Run the following command:
+   ''' bash
    python main.py
 
 Note: If you are using MacOS, use `python3` instead of `python`.
