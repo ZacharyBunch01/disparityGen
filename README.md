@@ -21,6 +21,7 @@ To run the program, follow these steps:
 Note: If you are using MacOS, use `python3` instead of `python`:
    ```bash
    python3 main.py
+```
 
 4. The program will automatically install any necessary dependencies if not already installed.
 
