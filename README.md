@@ -7,10 +7,10 @@ This program generates a 3D point cloud from two input images by first creating 
 ## Input images
 
 Left Image: 
-![im1](https://github.com/ZacharyBunch01/disparityGen/assets/126414937/8bbe72d2-7ca9-43c1-bd07-70e5024d972f)
+![im0](https://github.com/ZacharyBunch01/disparityGen/assets/126414937/473fe8a8-c79d-4066-a7cb-391bf8fae14b)
 
 Right Image:
-![im0](https://github.com/ZacharyBunch01/disparityGen/assets/126414937/473fe8a8-c79d-4066-a7cb-391bf8fae14b)
+![im1](https://github.com/ZacharyBunch01/disparityGen/assets/126414937/8bbe72d2-7ca9-43c1-bd07-70e5024d972f)
 
 # Disparity Map
 
