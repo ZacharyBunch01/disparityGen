@@ -1,6 +1,5 @@
 import subprocess
 
-'''
 # List of required packages
 required_packages = ['numpy', 'pillow', 'pyvista', 'opencv-python', 'opencv-python-headless', 'matplotlib']
 
@@ -27,7 +26,6 @@ for package in required_packages:
         print(f"{package} is already installed.")
 
 print("All required packages are installed.")
-'''
 
 import os
 from PIL import Image
