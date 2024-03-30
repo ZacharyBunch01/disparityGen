@@ -1,17 +1,43 @@
--- OVERVIEW --
+# Disparity Map to 3D Point Cloud Converter
 
-This program creates a disparity map based on two input images, and converts that a 3D point cloud.
+## Overview
 
-I used OpenCV to generate the disparity map and vertices. I chose not to write my own method for the disparity map generator because OpenCV's method is so fast and accurate. I used pyvista to plot the vertices due to its overall better performance and higher quality appearance.
+This program generates a 3D point cloud from two input images by first creating a disparity map using OpenCV and then converting it into a 3D point cloud. It utilizes OpenCV for generating the disparity map due to its speed and accuracy, and pyvista for plotting the vertices, offering better performance and higher-quality visualization.
 
--- RUNNING THE PROGRAM --
+## Running the Program
 
-* Run $ python main.py to run the program. (Use python3 if on MacOS)
+To run the program, follow these steps:
 
-* The program automatically installs any necessary dependencies.
+1. Clone the repository to your local machine:
+   git clone https://github.com/ZacharyBunch01/disparityGen.git
 
-* The program will then prompt the user for a scene choice.
+3. Navigate to the project directory.
 
-* Finally, the result is visible.
+4. Run the following command:
+   python main.py
+
+Note: If you are using MacOS, use `python3` instead of `python`.
+
+4. The program will automatically install any necessary dependencies if not already installed.
+
+5. Follow the prompts to select the scene of interest.
+
+6. Once the processing is complete, the result will be displayed.
+
+## Dependencies
+
+The following dependencies are required to run the program:
+
+- Python 3.x
+- OpenCV
+- pyvista
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgments
+
+- This project utilizes the power of OpenCV and pyvista for efficient and accurate generation and visualization of 3D point clouds.
 
 
