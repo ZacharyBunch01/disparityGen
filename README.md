@@ -51,10 +51,10 @@ The following dependencies are required to run the program:
 
 - Python 3.x
 - OpenCV
-- pyvista
-- numpy
-- pillow
-- matplotlib
+- PyVista
+- Numpy
+- Pillow
+- Matplotlib
 
 ## License
 
