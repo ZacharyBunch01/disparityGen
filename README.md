@@ -2,7 +2,7 @@
 
 ## Overview
 
-This program generates a 3D point cloud from two input images by first creating a disparity map using OpenCV and then converting it into a 3D point cloud. It utilizes OpenCV for generating the disparity map due to its speed and accuracy, and pyvista for plotting the vertices, offering better performance and higher-quality visualization.
+This program generates a 3D point cloud from two input images by first creating a disparity map using OpenCV and then converting it into a 3D point cloud. It utilizes OpenCV for generating the disparity map due to its speed and accuracy, and PyVista for plotting the vertices, offering better performance and higher-quality visualization.
 
 ## Input images
 
